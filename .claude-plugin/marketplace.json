@@ -1,0 +1,27 @@
+{
+  "name": "whispering233-marketplace",
+  "owner": {
+    "name": "[TODO: owner-name]",
+    "email": "[TODO: owner-email]"
+  },
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": "./plugins/example-plugin",
+      "description": "Starter plugin scaffold for this local marketplace.",
+      "version": "0.1.0",
+      "author": {
+        "name": "[TODO: author-name]",
+        "email": "[TODO: author-email]"
+      },
+      "category": "tool",
+      "tags": [
+        "starter",
+        "marketplace",
+        "plugin"
+      ]
+    }
+  ]
+}
+

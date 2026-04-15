@@ -1,0 +1,32 @@
+{
+  "name": "example-plugin",
+  "version": "0.1.0",
+  "description": "Starter plugin scaffold for this local marketplace.",
+  "author": {
+    "name": "[TODO: author-name]",
+    "email": "[TODO: author-email]"
+  },
+  "homepage": "[TODO: homepage-url]",
+  "repository": "[TODO: repository-url]",
+  "license": "[TODO: license]",
+  "keywords": ["starter", "marketplace", "plugin"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Example Plugin",
+    "shortDescription": "[TODO: short-description]",
+    "longDescription": "[TODO: long-description]",
+    "developerName": "[TODO: developer-name]",
+    "category": "Productivity",
+    "capabilities": ["Write", "Interactive"],
+    "websiteURL": "[TODO: website-url]",
+    "privacyPolicyURL": "[TODO: privacy-policy-url]",
+    "termsOfServiceURL": "[TODO: terms-url]",
+    "defaultPrompt": [
+      "[TODO: prompt-1]",
+      "[TODO: prompt-2]",
+      "[TODO: prompt-3]"
+    ],
+    "brandColor": "#2F6BFF"
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "whispering233-marketplace",
+  "interface": {
+    "displayName": "whispering233-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/example-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+
