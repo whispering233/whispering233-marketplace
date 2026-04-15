@@ -3,30 +3,32 @@
   "version": "0.1.0",
   "description": "Starter plugin scaffold for this local marketplace.",
   "author": {
-    "name": "[TODO: author-name]",
-    "email": "[TODO: author-email]"
+    "name": "whispering233",
+    "email": "whispering2333@gmail.com"
   },
-  "homepage": "[TODO: homepage-url]",
-  "repository": "[TODO: repository-url]",
-  "license": "[TODO: license]",
-  "keywords": ["starter", "marketplace", "plugin"],
+  "license": "MIT",
+  "keywords": [
+    "starter",
+    "marketplace",
+    "plugin"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Example Plugin",
-    "shortDescription": "[TODO: short-description]",
-    "longDescription": "[TODO: long-description]",
-    "developerName": "[TODO: developer-name]",
+    "shortDescription": "example plugin for marketplace testing",
+    "longDescription": "example plugin for marketplace testing. This plugin serves as a starter scaffold for developers to create and test their plugins in this local marketplace environment.",
+    "developerName": "whispering233",
     "category": "Productivity",
-    "capabilities": ["Write", "Interactive"],
+    "capabilities": [
+      "Write",
+      "Interactive"
+    ],
     "websiteURL": "[TODO: website-url]",
     "privacyPolicyURL": "[TODO: privacy-policy-url]",
     "termsOfServiceURL": "[TODO: terms-url]",
     "defaultPrompt": [
-      "[TODO: prompt-1]",
-      "[TODO: prompt-2]",
-      "[TODO: prompt-3]"
+      ""
     ],
     "brandColor": "#2F6BFF"
   }
 }
-
