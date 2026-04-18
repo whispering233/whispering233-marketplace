@@ -1,0 +1,39 @@
+{
+  "name": "structured-design-doc",
+  "version": "0.1.0",
+  "description": "Structured design document plugin for relational database table design and REST API specifications.",
+  "author": {
+    "name": "whispering233",
+    "email": "whispering2333@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design-doc",
+    "database",
+    "schema",
+    "api",
+    "rest",
+    "template"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Structured Design Doc",
+    "shortDescription": "Structure database and REST API design documents with reusable rules and templates.",
+    "longDescription": "A documentation-focused plugin that standardizes relational database table design and HTTP/REST API design outputs. It separates shared writing rules, standalone templates, and routing skills so future design document types can be added without rewriting the core workflow.",
+    "developerName": "whispering233",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "[TODO: website-url]",
+    "privacyPolicyURL": "[TODO: privacy-policy-url]",
+    "termsOfServiceURL": "[TODO: terms-url]",
+    "defaultPrompt": [
+      "Write a structured database table design document for a new order system.",
+      "Write a structured REST API design spec for user profile management.",
+      "Route my backend design request into database and API sections with fixed templates."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

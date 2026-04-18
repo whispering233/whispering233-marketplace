@@ -21,6 +21,25 @@
         "marketplace",
         "plugin"
       ]
+    },
+    {
+      "name": "structured-design-doc",
+      "source": "./plugins/structured-design-doc",
+      "description": "Structured design document plugin for relational database table design and REST API specifications.",
+      "version": "0.1.0",
+      "author": {
+        "name": "whispering233",
+        "email": "whispering2333@gmail.com"
+      },
+      "category": "tool",
+      "tags": [
+        "design-doc",
+        "database",
+        "schema",
+        "api",
+        "rest",
+        "template"
+      ]
     }
   ]
 }
