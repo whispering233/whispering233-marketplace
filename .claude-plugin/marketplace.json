@@ -7,22 +7,6 @@
   "version": "0.1.0",
   "plugins": [
     {
-      "name": "example-plugin",
-      "source": "./plugins/example-plugin",
-      "description": "Starter plugin scaffold for this local marketplace.",
-      "version": "0.1.0",
-      "author": {
-        "name": "whispering233",
-        "email": "whispering2333@gmail.com"
-      },
-      "category": "tool",
-      "tags": [
-        "starter",
-        "marketplace",
-        "plugin"
-      ]
-    },
-    {
       "name": "structured-design-doc",
       "source": "./plugins/structured-design-doc",
       "description": "Structured design document plugin for relational database table design and REST API specifications.",
