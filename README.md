@@ -40,7 +40,7 @@ whispering233-marketplace/
 
 插件内包含的能力：
 
-- `structured-design-doc`
+- `design-doc-router`
   - 路由技能。先判断用户请求属于表设计、API 设计，还是两者都需要。
 - `db-table-design`
   - 专门输出数据库表设计文档。

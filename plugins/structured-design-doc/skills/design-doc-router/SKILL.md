@@ -1,9 +1,9 @@
 ---
-name: structured-design-doc
+name: design-doc-router
 description: Use when a user needs a structured backend design document, database table design, API specification, or a broader request that should be routed into relational schema and REST API templates.
 ---
 
-# Structured Design Doc
+# Design Doc Router
 
 ## Overview
 

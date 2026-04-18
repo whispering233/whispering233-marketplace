@@ -89,7 +89,7 @@ Expected: three Markdown files are listed
 ### Task 4: Create the routing and specialized skills
 
 **Files:**
-- Create: `plugins/structured-design-doc/skills/structured-design-doc/SKILL.md`
+- Create: `plugins/structured-design-doc/skills/design-doc-router/SKILL.md`
 - Create: `plugins/structured-design-doc/skills/db-table-design/SKILL.md`
 - Create: `plugins/structured-design-doc/skills/api-design-spec/SKILL.md`
 

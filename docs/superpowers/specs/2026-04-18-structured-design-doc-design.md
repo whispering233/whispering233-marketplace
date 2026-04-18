@@ -15,7 +15,7 @@ Create a marketplace plugin that forces project design documents into stable, re
 
 The plugin will ship with:
 
-- 1 routing skill: `structured-design-doc`
+- 1 routing skill: `design-doc-router`
 - 2 specialized skills: `db-table-design`, `api-design-spec`
 - 1 shared rules document
 - 2 standalone Markdown templates
@@ -40,7 +40,7 @@ plugins/structured-design-doc/
   references/shared-design-rules.md
   templates/db-table-design-template.md
   templates/api-design-spec-template.md
-  skills/structured-design-doc/SKILL.md
+  skills/design-doc-router/SKILL.md
   skills/db-table-design/SKILL.md
   skills/api-design-spec/SKILL.md
 ```
@@ -69,7 +69,7 @@ Templates remain standalone Markdown files so skills can stay small and composab
 
 ### Skill layer
 
-- `structured-design-doc` identifies intent and routes to the appropriate specialized skill.
+- `design-doc-router` identifies intent and routes to the appropriate specialized skill.
 - `db-table-design` enforces the shared rules plus the database template.
 - `api-design-spec` enforces the shared rules plus the API template.
 

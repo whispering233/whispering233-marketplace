@@ -4,7 +4,7 @@
 
 ## What it includes
 
-- 1 routing skill: `structured-design-doc`
+- 1 routing skill: `design-doc-router`
 - 2 specialized skills: `db-table-design`, `api-design-spec`
 - 1 shared rules file: `references/shared-design-rules.md`
 - 2 standalone templates in `templates/`
@@ -22,7 +22,7 @@ It does not yet cover cache, queue, event, or deployment design.
 
 ## Usage flow
 
-1. Start with the routing skill `structured-design-doc`.
+1. Start with the routing skill `design-doc-router`.
 2. Let the skill decide whether the request belongs to database table design, API design, or both.
 3. Apply `references/shared-design-rules.md`.
 4. Produce output using the matching standalone template under `templates/`.
@@ -33,5 +33,5 @@ To add a new design document type later:
 
 1. Add a new template under `templates/`.
 2. Add a specialized skill under `skills/`.
-3. Extend the routing rules in `skills/structured-design-doc/SKILL.md`.
+3. Extend the routing rules in `skills/design-doc-router/SKILL.md`.
 4. Reuse `references/shared-design-rules.md` instead of duplicating common rules.
