@@ -1,7 +1,7 @@
 {
   "name": "structured-design-doc",
   "version": "0.1.0",
-  "description": "Structured design document plugin for normalized relational schema and REST API design outputs.",
+  "description": "Structured design document plugin for design solutions, normalized relational schema, and REST API design outputs.",
   "author": {
     "name": "whispering233",
     "email": "whispering2333@gmail.com"
@@ -9,10 +9,12 @@
   "license": "MIT",
   "keywords": [
     "design-doc",
+    "design-solution",
     "database",
     "schema",
     "api",
     "rest",
+    "system-design",
     "documentation"
   ]
 }

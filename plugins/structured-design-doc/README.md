@@ -5,9 +5,9 @@
 ## What it includes
 
 - 1 routing skill: `design-doc-router`
-- 2 specialized skills: `db-table-design`, `api-design-spec`
+- 3 specialized skills: `design-solution`, `db-table-design`, `api-design-spec`
 - 1 shared rules file: `references/shared-design-rules.md`
-- 2 standalone templates in `templates/`
+- 3 standalone templates in `templates/`
 - Codex metadata: `.codex-plugin/plugin.json`
 - Claude metadata: `.claude-plugin/plugin.json`
 
@@ -15,6 +15,7 @@
 
 This plugin currently standardizes:
 
+- design solution / technical solution / system design documents
 - relational database table design documents
 - HTTP/REST API design documents
 
@@ -23,7 +24,7 @@ It does not yet cover cache, queue, event, or deployment design.
 ## Usage flow
 
 1. Start with the routing skill `design-doc-router`.
-2. Let the skill decide whether the request belongs to database table design, API design, or both.
+2. Let the skill decide whether the request belongs to design solution, database table design, API design, or a split combination of them.
 3. Apply `references/shared-design-rules.md`.
 4. Produce output using the matching standalone template under `templates/`.
 

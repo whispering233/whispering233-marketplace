@@ -1,6 +1,6 @@
 # Shared Design Rules
 
-These rules apply to every document produced through `structured-design-doc`, including database table design and REST API design.
+These rules apply to every document produced through `structured-design-doc`, including design solution, database table design, and REST API design.
 
 ## 1. Purpose Before Structure
 
@@ -60,9 +60,14 @@ Examples of constraints that must be explicit when relevant:
 Required output style:
 
 - structured headings
+- stable, scannable heading levels
 - tables for field-level definitions
 - short explanatory paragraphs where tradeoffs matter
 - dedicated sections for risks and open questions
+
+When a document-specific template requires fixed section order or specific heading levels, the template controls the final structure.
+
+Do not mix section skeletons across different document types in one blended structure.
 
 Do not deliver final output as:
 
