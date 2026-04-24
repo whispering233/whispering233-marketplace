@@ -1,0 +1,41 @@
+{
+  "name": "pop-music-studio",
+  "version": "0.1.0",
+  "description": "Pipeline plugin for generating pop music deliverables from lyrics and song structure to arrangement, vocals, cover art, and MV concepts.",
+  "author": {
+    "name": "whispering233",
+    "email": "whispering2333@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pop-music",
+    "lyrics",
+    "songwriting",
+    "arrangement",
+    "vocal",
+    "cover-art",
+    "mv",
+    "creative-pipeline"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pop Music Studio",
+    "shortDescription": "Create pop songs and release assets through a six-stage pipeline.",
+    "longDescription": "A creative pipeline plugin for building pop music projects from lyrical concept and song structure through arrangement, vocal direction, cover art, and MV planning. It keeps each stage separated but connected through shared rules, templates, and a routing skill so the project stays coherent from first brief to final release package.",
+    "developerName": "whispering233",
+    "category": "Creativity",
+    "capabilities": [
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "[TODO: website-url]",
+    "privacyPolicyURL": "[TODO: privacy-policy-url]",
+    "termsOfServiceURL": "[TODO: terms-url]",
+    "defaultPrompt": [
+      "Write a pop lyric brief and first draft for a summer breakup single.",
+      "Turn this chorus idea into a full arrangement and vocal direction pack.",
+      "Plan the cover art and MV concept for an upbeat synth-pop release."
+    ],
+    "brandColor": "#E85D04"
+  }
+}

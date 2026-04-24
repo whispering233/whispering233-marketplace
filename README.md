@@ -25,11 +25,18 @@ whispering233-marketplace/
       references/
       skills/
       templates/
+    pop-music-studio/
+      .codex-plugin/plugin.json
+      .claude-plugin/plugin.json
+      README.md
+      references/
+      skills/
+      templates/
 ```
 
 ## 当前插件
 
-当前仓库包含 1 个插件：`structured-design-doc`。
+当前仓库包含 2 个插件：`structured-design-doc`、`pop-music-studio`。
 
 ### `structured-design-doc`
 
@@ -68,9 +75,50 @@ whispering233-marketplace/
 - 把同一轮后端需求拆成方案设计、数据库设计、API 设计三部分分别输出
 - 希望团队成员输出风格统一，减少评审时的格式噪音
 
+### `pop-music-studio`
+
+用途：把流行音乐创作过程拆成稳定的多阶段流水线，从歌词、歌曲结构、编曲、演唱设定，一直延伸到封面和 MV 方案，避免一次性把所有创意揉成一段不可复用的自由发挥。
+
+当前版本支持 6 类创作阶段：
+
+- 歌词创作
+- 歌曲结构与旋律方向
+- 编曲与制作方向
+- 演唱与和声设定
+- 封面设计
+- MV 概念与镜头规划
+
+插件内包含的能力：
+
+- `music-pipeline-router`
+  - 路由技能。判断请求应该进入歌词、歌曲、编曲、演唱、封面、MV，还是拆成完整流水线输出。
+- `lyrics-writing`
+  - 输出结构化歌词创作结果，包含主题、标题、hook、分段歌词和修改备注。
+- `song-composition`
+  - 输出结构化歌曲方案，包含曲式、节奏、调性、hook 与分段旋律方向。
+- `arrangement-production`
+  - 输出结构化编曲与制作说明，包含乐器、groove、分段能量和制作交接说明。
+- `vocal-performance`
+  - 输出结构化演唱说明，包含主唱音色、分段唱法、和声、ad-lib 与录音处理建议。
+- `cover-art-design`
+  - 输出结构化封面方向，包含视觉概念、构图、字体、配色和图像生成提示。
+- `mv-generation`
+  - 输出结构化 MV 方案，包含概念、场景、镜头、表演方向和剪辑节奏。
+- `references/shared-pipeline-rules.md`
+  - 共享创作约束，保证音乐和视觉阶段围绕同一份 brief 展开。
+- `templates/`
+  - 六个阶段对应的独立模板。
+
+适合的典型场景：
+
+- 从一句灵感出发，拆成完整的流行音乐创作流水线
+- 先写歌词，再逐步扩展到歌曲结构和编曲说明
+- 为已有歌曲补充演唱、封面和 MV 的统一创意包
+- 需要让不同阶段的输出保持同一个主题、人设和情绪方向
+
 ## 当前状态
 
-当前 marketplace 元数据中已经注册了 `structured-design-doc`：
+当前 marketplace 元数据中已经注册了 `structured-design-doc` 和 `pop-music-studio`：
 
 - Codex marketplace：`.agents/plugins/marketplace.json`
 - Claude Code marketplace：`.claude-plugin/marketplace.json`
@@ -78,7 +126,9 @@ whispering233-marketplace/
 插件自身也已经同时提供双平台元数据：
 
 - Codex 清单：`plugins/structured-design-doc/.codex-plugin/plugin.json`
+- Codex 清单：`plugins/pop-music-studio/.codex-plugin/plugin.json`
 - Claude Code 清单：`plugins/structured-design-doc/.claude-plugin/plugin.json`
+- Claude Code 清单：`plugins/pop-music-studio/.claude-plugin/plugin.json`
 
 ## 在 Codex 中安装和使用
 

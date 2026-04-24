@@ -1,0 +1,20 @@
+{
+  "name": "pop-music-studio",
+  "version": "0.1.0",
+  "description": "Pipeline plugin for pop music creation across lyrics, song structure, arrangement, vocals, cover art, and MV planning.",
+  "author": {
+    "name": "whispering233",
+    "email": "whispering2333@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pop-music",
+    "lyrics",
+    "songwriting",
+    "arrangement",
+    "vocal",
+    "cover-art",
+    "mv",
+    "creative-pipeline"
+  ]
+}
